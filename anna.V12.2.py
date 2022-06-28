@@ -42,14 +42,3 @@ while True:
     url = uri+p.format(pageCount) + searching_word
     req(url)
     pageCount +=1
-
-
-
-
-
-
-
-        # data['articles'] = articles
-        # data['pageCount'] = pageCount
-        # with open("data.json", "w") as df:
-        #     json.dump(data, df)
